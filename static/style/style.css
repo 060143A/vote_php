@@ -1,0 +1,391 @@
+@CHARSET "UTF-8";
+body {
+    font: 12px "Lucida Grande", Arial, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-position: top right;
+    background-repeat: repeat;
+}
+
+img.l_notifier {
+    border: 3px solid #CCC
+}
+
+#left {
+    width: 260px;
+    height: 670px;
+    float: left
+}
+
+#step {
+    width: 260px;
+    height: 670px;
+}
+
+#right {
+    width: 695px;
+    height: 670px;
+    float: right
+}
+
+p.zhengwen {
+    text-align: left;
+    line-height: 1.5;
+    margin: 15px 15px 15px 15px;
+    font-size: 16px;
+    font-family: Verdana, Arial, 'Lucida Grande', Sans-Serif
+}
+
+#page {
+    margin: 0 auto;
+    width: 960px;
+    background: #FFC;
+}
+
+#header {
+    height: 200px;
+    /*text-align:left;*/
+}
+
+#header h1 a {
+    display: block;
+    height: 120px;
+    width: 236px;
+    text-indent: -2000em;
+    text-decoration: none;
+    z-index: 1000;
+    /* need for FX and IE */
+    background: url(../images/logo.png) 0 0 no-repeat;
+}
+
+#header span {
+    float: right;
+    margin: 90px 15px 0;
+    color: white;
+    font-weight: bold;
+}
+
+#header a {
+    color: white;
+}
+
+#content {
+    background: #FFC;
+
+}
+
+.md .text_box {
+    clear: both;
+    _height: 0%;
+    color: #ff7600;
+    background: url(../images/box.png) no-repeat;
+}
+
+.md .gold_box {
+    clear: both;
+    _height: 0%;
+    border: solid 1px #e5e5e5;
+    color: #ff7600;
+    background: url(../images/goldenmedal.jpg) no-repeat;
+}
+
+.md .gold_box h1 {
+    font-size: 16px;
+    margin: 2px 0 4px;
+    font-weight: bold;
+    line-height: 24px
+}
+
+.md .gold_box h1 a {
+}
+
+.md .gold_box h2 {
+    font-size: 14px;
+    margin: 2px 0 4px;
+    font-weight: bold;
+    line-height: 22px
+}
+
+.md .gold_box h2 a {
+}
+
+.md .gold_box h3 {
+    font-size: 12px;
+    margin: 2px 2px 1px;
+    font-weight: bold;
+    line-height: 20px
+}
+
+.md .gold_box h3 a {
+}
+
+.md .gold_box h4 {
+    font-size: 12px;
+    margin: 2px 0 2px;
+    font-weight: bold;
+    line-height: 18px
+}
+
+.md .gold_box h4 a {
+}
+
+.md .gold_box img {
+    margin: 5px;
+    border: 3px solid #ccc
+}
+
+.md .gold_box .l {
+    margin: 0 5px 0 0
+}
+
+.md .gold_box .r {
+    margin: 0 0 0 5px
+}
+
+.md .gold_box p {
+    margin-bottom: 5px
+}
+
+.md .gold_box .view_detail {
+    padding-left: 12px;
+    text-decoration: underline
+}
+
+.md .gold_box a.underline {
+    text-decoration: underline
+}
+
+.md .gold_box:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    font-size: 0px;
+    line-height: 0px;
+    height: 0
+}
+
+.md .text_box h1 {
+    font-size: 16px;
+    margin: 2px 0 4px;
+    font-weight: bold;
+    line-height: 24px
+}
+
+.md .text_box h1 a {
+}
+
+.md .text_box h2 {
+    font-size: 14px;
+    margin: 2px 0 4px;
+    font-weight: bold;
+    line-height: 22px
+}
+
+.md .text_box h2 a {
+}
+
+.md .text_box h3 {
+    font-size: 12px;
+    margin: 2px 2px 1px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 0 10px;
+}
+
+.md .text_box h3 a {
+}
+
+.md .text_box h4 {
+    font-size: 12px;
+    margin: 2px 0 2px;
+    font-weight: bold;
+    line-height: 18px
+}
+
+.md .text_box h4 a {
+}
+
+.md .text_box > a {
+    padding: 4px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.md .text_box .l {
+    margin: 0 5px 0 0
+}
+
+.md .text_box .r {
+    margin: 0 0 0 5px
+}
+
+.md .text_box p {
+    margin-bottom: 0px;
+    padding: 0 5px;
+    overflow-y: scroll;
+}
+
+.md .text_box .view_detail {
+    padding-left: 12px;
+    text-decoration: underline
+}
+
+.md .text_box a.underline {
+    text-decoration: underline
+}
+
+.md .text_box:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    font-size: 0px;
+    line-height: 0px;
+    height: 0
+}
+
+.dot_line, .solid_line {
+    background: url(../images/dot_h_1.gif) repeat-x left top;
+    margin: 5px auto 6px;
+    height: 1px;
+    font-size: 0
+}
+
+body .l, body .left {
+    float: left;
+    clear: none
+}
+
+body .r, body .right {
+    float: right;
+    clear: none
+}
+
+/*.md{border:solid 1px #e5e5e5;} */
+.md {
+    clear: both;
+    background: #ffffcc
+}
+
+.clear {
+    clear: both
+}
+
+p.comments {
+    font-size: 9pt;
+    margin: 0px 1px 0px 1px;
+}
+
+p.comments::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+
+p.comments::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+}
+
+p.comments::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+.footer {
+    clear: both;
+    height: 20px;
+    background-color: #b80d0d;
+}
+
+.submit {
+    background: url(../images/submit.gif) 0px -8px;
+    border: 1px solid #cfab25;
+    height: 32px;
+    font-weight: bold;
+    padding-top: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #660000;
+}
+
+td.ttl2_1 { /* background:url(../images/att.jpg) no-repeat center;*/
+    color: #A40000;
+    font-size: 16px;
+}
+
+p.att {
+    margin: 0px 0px 0px 170px;
+    text-align: left
+}
+
+p.mention {
+    font-size: 16px;
+    text-align: center
+}
+
+td.tips {
+    background: url(../images/tips.jpg) no-repeat center;
+    color: #A40000;
+    font-size: 16px;
+}
+
+#menu {
+    width: 960px;
+    height: 38px;
+    margin: 0px auto;
+    background-color: #f30000;
+    box-shadow: 1px 3px 5px black;
+}
+
+#menu ul {
+    display: block;
+    list-style: none;
+    padding: 5px;
+    margin: 0px;
+
+}
+
+#menu ul li {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu ul li a {
+    line-height: 51px;
+    display: block;
+    padding: 0px 10px 0 10px;
+    margin: 0 3px 0 3px;
+    _margin: 0 2px 0 2px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+#menu ul li.selected a {
+    height: 27px;
+    display: block;
+    padding: 0px 10px 0 10px;
+    margin: 0 3px 0 3px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: 27px;
+}
+
+#menu ul li a:hover {
+}
+
+.comments {
+    height: 251px;
+    width: 220px;
+}
+
